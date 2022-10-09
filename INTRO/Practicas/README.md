@@ -1,10 +1,23 @@
-<style>
-  h1{
-  text-aling:center;
-  font-size:20px;
-  }
-</style>
+<h1 align="center"
+  >AbogaBOT</h1>
+  
+<h2 align="center"
+  >(2) Buyer Persona</h2>
+  
+  <h3 align="center"
+  >María Sofia López García</h3>
 
-<h1 style="">AbogaBOT</h1>
 
-<img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/4-%20Wireframe%20UX/Wireframe%20UX%20-%20Desktop/Img/Admin%20-%20Login/1.png">
+
+<p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/2-%20Buyer%20Persona/Mar%C3%ADa%20Sofia%20L%C3%B3pez%20Garc%C3%ADa/Mar%C3%ADa%20Sofia%20L%C3%B3pez%20Garc%C3%ADa-1.jpg"></p>
+
+<p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/2-%20Buyer%20Persona/Mar%C3%ADa%20Sofia%20L%C3%B3pez%20Garc%C3%ADa/Mar%C3%ADa%20Sofia%20L%C3%B3pez%20Garc%C3%ADa-2.jpg"></p>
+
+<h3 align="center"
+  >Carlos Armando Alvarez Perez</h3>
+
+<p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/2-%20Buyer%20Persona/Carlos%20Armando%20Alvarez%20Perez/Carlos%20Armando%20Alvarez%20Perez-1.jpg"></p>
+
+<p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/2-%20Buyer%20Persona/Carlos%20Armando%20Alvarez%20Perez/Carlos%20Armando%20Alvarez%20Perez-2.jpg"></p>
+
+
