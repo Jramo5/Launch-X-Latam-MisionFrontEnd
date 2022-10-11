@@ -15,3 +15,6 @@
 <h2 align="center">UX Login para los administradores & Panel de Administración </h2>
 <p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/5-%20UX/Desktop/Img/Admin%20login%20-%20Panel/1.png"></p>
 <p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/5-%20UX/Desktop/Img/Admin%20login%20-%20Panel/2.png"></p>
+
+<p align="center"><a href="https://www.figma.com/proto/q4srZqiMkh2oNQ3U5FoVbt/Pagina-web-para-abogados-(Copy)?page-id=0%3A1&node-id=1%3A2">VER EN FIGMA</a></p>
+
