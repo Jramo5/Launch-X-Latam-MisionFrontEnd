@@ -24,7 +24,7 @@
  
 <p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/3-%20Publico%20objetivo/Publico%20objetivo.png?raw=true"></p>
 
-<h2>(4) Wireframe UX</h2>
+<h2 align="center">(4) Wireframe UX</h2>
 
 <h2 align="center"
   >Wireframe UX Desktop</h2>
