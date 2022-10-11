@@ -2,7 +2,7 @@
 <p align="center"><img src=""></p>
 
 <h3 align="center">Wireframe Vista de Móvil general</h3>
-<p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/4-%20Wireframe%20UX/Movil/Pagina%20web%20para%20abogados.png"></p>
+<p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/4-%20Wireframe%20UX/Movil/Pagina%20web%20para%20abogados.png?raw=true"></p>
 
 <h3 align="center">Wireframe UX vista Movil por parte</h3>
 
