@@ -1,4 +1,5 @@
 <h1 align="center">UX Desktop por partes</h1>
+<h2 align="center">UX Desktop Vista general</h2>
 <p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/5-%20UX/Desktop/Abogabot%20-%20Desktop.png?raw=true"></p>
 <h2 align="center">UX Inicio & Registro</h2>
 <p align="center"><img src="https://github.com/Jramo5/Launch-X-Latam-MisionFrontEnd/blob/main/INTRO/Practicas/5-%20UX/Desktop/Img/Inicio%20-%20Registro/1.png"></p>
