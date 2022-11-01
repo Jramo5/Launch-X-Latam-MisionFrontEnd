@@ -1,0 +1,470 @@
+div.complemento{
+    display: block;
+    width: 90%;
+    margin: -2px auto;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0px 2px 2px;
+}
+
+div.complemento h3{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+div.complemento>input[type="text"],
+div.complemento div>input[type="text"]{
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+    color: var(--color5);
+    outline: none;
+}
+
+div.complemento>input[type="text"]:focus,
+div.complemento div>input[type="text"]:focus{
+    border: none;
+    outline: 1px solid var(--color16);
+}
+
+div.complemento >input[type="radio"],
+div.complemento div>input[type="radio"]{
+    margin-right: 4px;
+}
+
+div.complemento >select{
+    display: block;
+    width: 190px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: var(--color8);
+    text-align: center;
+}
+
+.label{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font4);
+    font-size: 1.3rem;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="submit"].button-enviar{
+    display: block;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    width: 70%;
+    background-color: var(--color9);
+    color: var(--color8);
+    text-transform: uppercase;
+    font-family: var(--font4);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border: 1px solid var(--color8);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+input[type="submit"].button-enviar:hover{
+    background-color: var(--color16);
+    border-color: var(--color8);
+    color: var(--color8);
+}
+
+.main-cotizar .cotizar{
+    width: 90%;
+    margin: 100px auto;
+    background-color: var(--color13);
+    padding: 40px;
+    border-radius: 43px;
+    box-shadow: 2px 2px 2px 3px var(--color5);
+}
+
+.main-cotizar .cotizar h1{
+    text-align: center;
+    font-family: var(--font6);
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--color16);
+    margin-bottom: 15px;
+}
+
+.main-cotizar .cotizar .form-cotizar{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid var(--color3);
+    border-radius: 7px;
+}
+
+.main-cotizar .cotizar .form-cotizar form>h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--font2);
+}
+
+/* OCULTO TODOS LOS DIV E INPUTS */
+#pastel-boda,
+#pastel_cumpleanos,
+#pastel_tematico,
+#pastel_nino,
+#pastel-adulto,
+#pastel-otro,
+input[type="text"]#otro-pastel,
+input[type="text"]#piso-otro-boda,
+input[type="text"]#piso-otro-cumpleanos,
+input[type="text"]#piso-otro-festivo,
+input[type="text"]#piso-otro-nino,
+input[type="text"]#piso-otro-adulto,
+input[type="file"]#archivo-personalizado-boda,
+input[type="file"]#archivo-personalizado-cumpleanos,
+input[type="file"]#archivo-personalizado-festivo,
+input[type="file"]#archivo-personalizado-nino,
+input[type="file"]#archivo-personalizado-adulto,
+input[type="file"]#dinosaurio-personalizado,
+input[type="color"]#color-personalizado,
+input[type="color"]#color-personalizado-otro,
+input[type="text"]#otro-sabor,
+input[type="text"]#otro-sabor-personalizado,
+input[type="text"]#si-otra-dedicatoria,
+.complemento.boda,
+.complemento.cumpleanos,
+.complemento.festivo,
+.complemento.nino,
+.complemento.adulto,
+.complemento.pastel-otro,
+select#relleno-adulto,
+select#relleno-adulto-otro,
+div.piso-nuevo,
+div.sabor-cerveza,
+div.datos-otra-direccion,
+label.archivo-personalizado-boda,
+label.archivo-personalizado-cumpleanos,
+label.archivo-personalizado-festivo,
+label.archivo-personalizado-nino,
+label.dinosaurio-personalizado,
+label.archivo-personalizado-adulto
+{
+    display: none;
+}
+
+/* ESTILOS DE LA SECCION DE BODAS */
+
+input[type="radio"]#nuevo-piso-boda:checked~div.piso-nuevo{
+    display: block;
+}
+
+input[type="radio"]#otro-piso-boda:checked~input[type="text"]#piso-otro-boda{
+    display: inline-block;
+}
+
+input[type="radio"]#personalizado-boda:checked ~ label.archivo-personalizado-boda,
+input[type="radio"]#personalizado-boda:checked ~ input[type="file"]#archivo-personalizado-boda{
+    display: block;
+}
+
+.boda{
+    margin-bottom: 10px;
+}
+
+.label.boda{
+    color: var(--color8);
+    background-color: var(--color2);
+}
+
+.complemento.boda{
+    margin-top: -10px;
+    border-color: var(--color2);
+}
+
+input[type="radio"]#pastel-boda:checked~.complemento.boda
+{
+    display: block;
+}
+
+/* ESTILOS DE LA SECCION DE CUMPLEAÑOS */
+
+input[type="radio"]#pastel_cumpleanos:checked~div.complemento.cumpleanos{
+    display: block;
+}
+
+input[type="radio"]#personalizado-cumpleanos:checked ~ label.archivo-personalizado-cumpleanos,
+input[type="radio"]#personalizado-cumpleanos:checked ~ input[type="file"]#archivo-personalizado-cumpleanos{
+    display: block;
+}
+
+input[type="radio"]#nuevo-piso-cumpleanos:checked~div.piso-nuevo{
+    display: inline-block;
+}
+
+input[type="radio"]#otro-piso-cumpleanos:checked~input[type="text"]#piso-otro-cumpleanos{
+    display: inline-block;
+
+}
+
+div.cumpleanero{
+    margin-bottom: 10px;
+}
+
+.complemento.cumpleanos{
+    margin-top: -10px;
+    border-color: var(--color12);
+}
+
+.cumpleanero .label.cumpleanos{
+    color: var(--color8);
+    background-color: var(--color12);
+}
+
+/* ESTILOS DE LA SECCION TEMATICA */
+
+input[type="radio"]#pastel_tematico:checked~div.complemento.festivo{
+    display: block;
+}
+
+input[type="radio"]#personalizado-festivo:checked ~ label.archivo-personalizado-festivo,
+input[type="radio"]#personalizado-festivo:checked ~ input[type="file"]#archivo-personalizado-festivo{
+    display: block;
+}
+
+input[type="radio"]#nuevo-piso-festivo:checked~div.piso-nuevo{
+    display: inline-block;
+}
+
+input[type="radio"]#otro-piso-festivo:checked~input[type="text"]#piso-otro-festivo{
+    display: inline-block;
+
+}
+
+div.pastel-festivo{
+    margin-bottom: 10px;
+}
+
+.complemento.festivo{
+    border-color: var(--color17);
+}
+
+.label.festivo{
+    color: var(--color8);
+    background-color: var(--color17);
+}
+
+/* ESTILOS DE LA SECCION DE NIÑOS */
+
+
+input[type="radio"]#pastel_nino:checked~div.complemento.nino{
+    display: block;
+}
+
+.label.nino{
+    color: var(--color8);
+    background-color: var(--color18);
+}
+
+div.nino{
+    margin-bottom: 10px;
+}
+
+.complemento.nino{
+    border-color: var(--color18);
+}
+
+input[type="radio"]#colores-cubierta-personalizado:checked ~ input[type="color"]#color-personalizado{
+    display: inline-block;
+}
+
+input[type="radio"]#personalizado-nino:checked ~ input[type="file"]#archivo-personalizado-nino,
+input[type="radio"]#personalizado-nino:checked ~ label.archivo-personalizado-nino{
+    display: inline-block;
+}
+
+input[type="radio"]#dinosaurio:checked ~ label.dinosaurio-personalizado,
+input[type="radio"]#dinosaurio:checked ~ input[type="file"]#dinosaurio-personalizado
+{
+    display: inline-block;
+}
+
+input[type="radio"]#nuevo-piso-nino:checked ~ div.piso-nuevo{
+    display: block;
+} 
+
+input[type="radio"]#otro-piso-nino:checked ~ input[type="text"]#piso-otro-nino{
+    display: inline-block;
+}
+
+/* ESTILOS DE LA SECCION DE ADULTOS */
+
+
+input[type="radio"]#pastel-adulto:checked ~ div.complemento.adulto{
+    display: block;
+}
+
+.label.adulto{
+    color: var(--color8);
+    background-color: var(--color6);
+}
+
+div.adulto{
+    margin-bottom: 10px;
+}
+
+.complemento.adulto{
+    border-color: var(--color6);
+}
+
+input[type="radio"]#relleno-normal:checked ~ select#relleno-adulto{
+    display: inline-block;
+} 
+
+input[type="radio"]#relleno-cerveza:checked ~ div.sabor-cerveza{
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="radio"]#otro-sabor-cerveza:checked ~ input[type="text"]#otro-sabor{
+    display: inline-block;
+}
+
+input[type="radio"]#personalizado-adulto:checked ~ label.archivo-personalizado-adulto,
+input[type="radio"]#personalizado-adulto:checked ~ input[type="file"]#archivo-personalizado-adulto{
+    display: inline-block;
+}
+
+input[type="radio"]#nuevo-piso-adulto:checked ~ div.piso-nuevo{
+    display: block;
+}
+
+input[type="radio"]#otro-piso-adulto:checked ~ input[type="text"]#piso-otro-adulto{
+    margin-top: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* ESTILOS DE OTROS TIPOS DE PASTELES */
+
+input[type="radio"]#pastel-otro:checked ~ div.complemento.pastel-otro{
+    display: block;
+}
+
+.label.otro-pastel{
+    color: var(--color8);
+    background-color: var(--color7);
+}
+
+.complemento.pastel-otro{
+    border-color: var(--color7);
+}
+
+textarea#otro-pastel-descripcion{
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 80px;
+
+}
+
+input[type="radio"]#otro-relleno-normal:checked ~ select#relleno-adulto-otro{
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="radio"]#otro-relleno-cerveza:checked ~ div.sabor-cerveza{
+    margin-top: 6px;
+    display: block;
+}
+
+input[type="radio"]#otro-sabor-cerveza-personalizado:checked ~ input[type="text"]#otro-sabor-personalizado{
+    display: inline-block;
+}
+
+input[type="radio"]#colores-cubierta-personalizado-otro:checked ~ input[type="color"]#color-personalizado-otro{
+    display: inline-block;
+}
+
+input[type="radio"]#otra-dedicatoria-si:checked ~ input[type="text"]#si-otra-dedicatoria{
+    display: inline-block;
+}
+
+
+.envio{
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: var(--color13);
+}
+
+.envio h3{
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 1.3rem;
+    color: var(--color15);
+}
+
+.envio input[type="radio"]{
+    display: none;
+}
+
+.envio>label{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--color6);
+    color: var(--color8);
+    font-family: var(--font4);
+    display: inline-block;
+    width: 30vh;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-left: 170px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.envio input[type="radio"]:checked+label{
+    background-color: var(--color16);
+}
+
+.datos-otra-direccion{
+    width: 100%;
+    padding: 10px;
+}
+
+.datos-otra-direccion div input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.datos-otra-direccion div input:hover{
+    outline: 1.6px solid var(--color16);
+    border: none;
+}
+
+.datos-otra-direccion .direccion-col-1, .datos-otra-direccion .direccion-col-2{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.datos-otra-direccion .direccion-col-1 label, 
+.datos-otra-direccion .direccion-col-2 label
+{
+    margin-right: 4px;
+}
+
+input[type="radio"]#otra-direccion:checked ~ div.datos-otra-direccion{
+    display: block;
+}
