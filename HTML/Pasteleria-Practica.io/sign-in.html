@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8407d0f78d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <input type="checkbox" name="check" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a href="index.html"><img src="assets/svg/cake-palace-1.svg" alt="Cake Palace" class="icon"></a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Catalogo</a></li>
+                <li><a href="#">Pedido</a></li>
+                <li><a href="#">Entrar</a>
+                    <div class="entrar">
+                        <a href="login.html">Iniciar Sesion</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-sign-in">
+
+            <div class="conteiner">
+                <h1>Registrarse</h1>
+                <form action="">
+
+                    <fieldset>
+                        <legend>
+                            <h2>Datos Personales:</h2>
+                        </legend>
+                        <div class="form-item">
+                            <div class="nom1">
+                                <label for="PNombre">Primer Nombre:</label>
+                                <input type="text" name="PNombre" id="PNombre">
+                            </div>
+                            <div class="nom2">
+                                <label for="SNombre">Segundo Nombre:</label>
+                                <input type="text" name="SNombre" id="SNombre">
+                            </div>
+                        </div>
+
+                        <div class="form-item">
+                            <div class="apellido">
+
+                                <label for="PApellido">Primer Apellido:</label>
+                                <input type="text" name="PApellido" id="PApellido">
+                            </div>
+                            <div class="apellido2">
+                                <label for="SApellido">Segundo Apellido:</label>
+                                <input type="text" name="SApellido" id="SApellido">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+
+                        <legend>
+                            <h2>Datos de envio:</h2>
+                        </legend>
+
+                        <div class="form-item">
+                            <div class="codigo-are">
+                                <label for="area">Codigo Postal</label>
+                                <input type="text" name="area" id="area">
+                            </div>
+                            <div class="telefono">
+                                <label for="tel">Telefono:</label>
+                                <input type="text" name="tel" id="tel">
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="estado">
+
+                                <label for="Estado">Estado:</label>
+                                <input type="text" name="Estado" id="Estado">
+
+                            </div>
+                            <div class="ciudad">
+
+                                <label for="Ciudad">Ciudad:</label>
+                                <input type="text" name="Ciudad" id="Ciudad">
+
+                            </div>
+                        </div>
+                        <div class="form-item">
+
+                            <div class="input-item">
+                                <label for="Residencia">Residencia:</label>
+                                <input type="text" name="Residencia" id="Residencia">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+
+                        <legend>
+                            <h2>Datos de Sesión:</h2>
+                        </legend>
+
+                        <div class="form-item">
+                            <div class="input-item">
+
+                                <label for="Email">Email:</label>
+                                <input type="email" name="Email" id="Email" required>
+                            </div>
+
+                        </div>
+                        <div class="form-item">
+                            <div class="input-item">
+
+                                <label for="Password">Contraseña:</label>
+                                <input type="password" name="Password" id="Password" required>
+                            </div>
+
+                        </div>
+                        <div class="form-item">
+                            <div class="input-item">
+
+                                <label for="Re-password">Confirmar Password:</label>
+                                <input type="password" name="Re-password" id="Re-password" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="accept">
+                        <input type="checkbox" name="accept" id="accept"><label for="accept">Acepto los <a
+                                href="#">Terminos & Condiciones</a> de Servicio</label>
+                    </div>
+                    <div class="button-registro">
+                        <input type="submit" value="Registrarse" class="button">
+                    </div>
+                    <div class="button-login">
+                        <p>¿Ya tienes cuenta?</p>
+                        <a href="login.html" class="button">Iniciar Sesion</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
