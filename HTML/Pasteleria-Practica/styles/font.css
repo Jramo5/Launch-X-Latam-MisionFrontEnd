@@ -1,0 +1,26 @@
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/* RIGHTEOUS */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Shalimar */
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+@font-face {
+    font-family: BlackOut;
+    src: url(../assets/font/Blackout.otf);
+}
+
+
+:root{
+    --font1:Verdana, sans-serif;
+    --font2:'Playfair Display', serif;
+    --font3:Roboto;
+    --font4:'Righteous', cursive;
+    --font5: 'Shalimar', cursive;
+    --font6:BlackOut;
+
+}
