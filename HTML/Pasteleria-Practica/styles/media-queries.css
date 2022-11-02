@@ -1,35 +1,148 @@
-/* MEDIA QUERIES SIZE 768PX */
+@media (max-width:480px) and (min-width:320px) {
 
-/* INDEX */
+    .checkbtn {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 12px;
+        margin-left: 10px;
+    }
 
-@media screen and (max-width:968px) and (min-width:768px) {
+    nav a img.icon {
+        display: block;
+        margin: -45px auto;
+    }
+
+    nav {
+        width: 60% !important;
+        display: block;
+        z-index: 4;
+    }
+
+    nav ul {
+        margin-top: 45px;
+        width: 100%;
+        display: none;
+        background-color: var(--color1);
+    }
+
+    nav ul li a i{
+        display: none !important;
+    }
+
+    nav ul li .entrar {
+        margin-top: 55px;
+        display: none;
+        width: 100%;
+    }
+
+    nav ul li a {
+        margin: auto;
+        text-align: center;
+    }
+
+    nav ul li .entrar a {
+        text-align: center;
+    }
+
+    /* animacion del menu */
+
+    #check:checked~ul {
+        display: block;
+        animation-name: menu;
+        animation-duration: 1s;
+    }
+
+    @keyframes menu {
+        from {
+            margin-left: -100%;
+        }
+
+        to {
+            margin-right: 100%;
+        }
+
+    }
+
+    /* Animacion del icono de menu */
+
+    #check:checked~.checkbtn {
+        margin-right: 10px;
+        justify-content: end;
+        animation-name: btn-menu;
+        animation-duration: 1s;
+        z-index: -1;
+    }
+
+    @keyframes btn-menu {
+        from {
+            margin-right: 100%;
+        }
+
+        to {
+            margin-right: 0%;
+        }
+
+    }
+
+    .main-index header{
+        width: 99% !important;
+        border: 1px solid red;
+    }
+
+    .main-index header .fondo{
+        width: 100% !important;
+    } 
+
     .main-index header h1 {
+        width: 100% !important;
         margin-top: -10px;
-        font-size: 2.4rem !important;
+        font-size: 32px !important;
     }
 
     .main-index header p {
-        margin-top: -10px;
+        margin-top: -17px;
+        font-size: 1.4rem !important;
     }
 
     .main-index .pasteles h2 {
-        font-size: 4rem !important;
+        font-size: 3.6rem !important;
     }
 
     .pastel .pastel-description h3 {
-        font-size: 2.9rem !important;
+        font-size: 2.6rem !important;
     }
 
     .main-index .pastel {
-        height: 69vh !important;
+        height: 65vh !important;
+        width: 98% !important;
+        margin: auto;
     }
 
     .pastel .pastel-description h3 {
-        margin-top: -20px !important;
+        margin-top: 10px !important;
+        border: 1px solid;
+        font-size: 1.3rem !important;
     }
 
     .pastel .pastel-description p {
-        font-size: 1rem !important;
+        font-size: 14px !important;
+    }
+
+    .pastel .pastel-gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .pastel-description .pastel-gallery img {
+        display: block;
+        padding: 5px;
+        width: 7vh !important;
+    }
+
+    .pastel-description .pastel-gallery img:hover {
+        width: 16vw !important;
     }
 
     .pastel .pastel-description .button-comprar {
@@ -37,7 +150,7 @@
     }
 
     .pastel .pastel-description .button-comprar a {
-        width: 40% !important;
+        width: 60% !important;
     }
 
     .pastel {
@@ -45,24 +158,38 @@
     }
 
     .main-index .Boda.pastel {
-        height: 65vh !important;
+        height: 67vh !important;
+    }
+
+    .main-index .Happy-Birthday{
+        margin-top: 60px;
     }
 
     .main-index .ninos.pastel {
-        height: 65vh !important;
+        height: 75vh !important;
     }
 
     .main-index .ninos.pastel h3 {
-        font-size: 2.5rem !important;
+        font-size: 1.4rem !important;
     }
 
     .pasteles .adultos.pastel {
-        height: 70vh !important;
+        height: 65vh !important;
+    }
+
+       /* FOOTER */
+
+       footer .footer {
+        flex-wrap: wrap !important;
+        flex-direction: row;
+        width: 98% !important;
+    }
+
+    footer .copyright{
+        font-size: 1rem !important;
     }
 
 }
-
-
 
 @media (min-width:481px) and (max-width:768px) {
 
@@ -82,6 +209,7 @@
     }
 
     nav {
+        width: 100% !important;
         display: block;
         z-index: 4;
     }
@@ -213,15 +341,15 @@
     }
 
     .pastel {
-        height: 72vh !important;
+        height: 65vh !important;
     }
 
     .main-index .Boda.pastel {
-        height: 87vh !important;
+        height: 85vh !important;
     }
 
     .main-index .Happy-Birthday{
-        margin-top: 65px;
+        margin-top: 60px;
     }
 
     .main-index .ninos.pastel {
@@ -264,5 +392,71 @@
     width: 45vw;
 }
 
+}
+
+
+/* MEDIA QUERIES SIZE 768PX */
+/* INDEX */
+
+@media screen and (max-width:968px) and (min-width:768px) {
+    .main-index header h1 {
+        margin-top: -10px;
+        font-size: 2.4rem !important;
+    }
+
+    .main-index header p {
+        margin-top: -10px;
+    }
+
+    .main-index .pasteles h2 {
+        font-size: 4rem !important;
+    }
+
+    .pastel .pastel-description h3 {
+        font-size: 2.9rem !important;
+    }
+
+    .main-index .pastel {
+        height: 69vh !important;
+    }
+
+    .pastel .pastel-description h3 {
+        margin-top: -20px !important;
+    }
+
+    .pastel .pastel-description p {
+        font-size: 1rem !important;
+    }
+
+    .pastel .pastel-description .button-comprar {
+        margin-top: 20px !important;
+    }
+
+    .pastel .pastel-description .button-comprar a {
+        width: 40% !important;
+    }
+
+    .pastel {
+        height: 65vh !important;
+    }
+
+    .main-index .Boda.pastel {
+        height: 65vh !important;
+    }
+
+    .main-index .ninos.pastel {
+        height: 65vh !important;
+    }
+
+    .main-index .ninos.pastel h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .pasteles .adultos.pastel {
+        height: 70vh !important;
+    }
 
 }
+
+
+
